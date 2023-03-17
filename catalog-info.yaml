@@ -6,15 +6,12 @@ metadata:
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
-  type: application
-  owner: EJIE
-  lifecycle: experimental
   type: url
-    targets:
-      - https://github.com/IkerMoratinoRodriguez/test_catalog2-main/blob/main/domains/m001-domain.yaml
-      - ./systems/d006-mensajeshlt7-system.yaml
-      - ./components/service-artemis/service-artemis.yaml
-      - ./components/service-back/service-back.yaml
-      - ./components/service-integracion/service-integracion.yaml
-      - ./resources/back-db/back-db-resource.yaml
-      - ./resources/back-bucket/back-bucket-resource.yaml
+  targets:
+    - https://github.com/IkerMoratinoRodriguez/test_catalog2-main/blob/main/domains/m001-domain.yaml
+    - ./systems/d006-mensajeshlt7-system.yaml
+    - ./components/service-artemis/service-artemis.yaml
+    - ./components/service-back/service-back.yaml
+    - ./components/service-integracion/service-integracion.yaml
+    - ./resources/back-db/back-db-resource.yaml
+    - ./resources/back-bucket/back-bucket-resource.yaml
