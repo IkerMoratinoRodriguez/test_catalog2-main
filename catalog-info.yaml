@@ -9,11 +9,12 @@ spec:
   type: application
   owner: EJIE
   lifecycle: experimental
-  targets:
-    - ./systems/d006-mensajeshlt7-system.yaml
-    - ./components/service-artemis/service-artemis.yaml
-    - ./components/service-back/service-back.yaml
-    - ./components/service-integracion/service-integracion.yaml
-    - ./resources/back-db/back-db-resource.yaml
-    - ./resources/back-bucket/back-bucket-resource.yaml
-    - ./domains/m001-domain.yaml
+  type: url
+    targets:
+      - ./domains/m001-domain.yaml
+      - ./systems/d006-mensajeshlt7-system.yaml
+      - ./components/service-artemis/service-artemis.yaml
+      - ./components/service-back/service-back.yaml
+      - ./components/service-integracion/service-integracion.yaml
+      - ./resources/back-db/back-db-resource.yaml
+      - ./resources/back-bucket/back-bucket-resource.yaml
