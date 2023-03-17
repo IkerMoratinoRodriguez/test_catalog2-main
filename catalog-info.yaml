@@ -7,7 +7,7 @@ metadata:
     'backstage.io/techdocs-ref': dir:.
 spec:
   targets:
-    - ./domains/catalog-info.yaml
+    - ./domains/m001-domain.yaml
     - ./systems/d006-mensajeshlt7-system.yaml
     - ./components/service-artemis/service-artemis.yaml
     - ./components/service-back/service-back.yaml
