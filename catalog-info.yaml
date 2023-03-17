@@ -8,7 +8,7 @@ metadata:
 spec:
   type: url
   targets:
-    - https://github.com/IkerMoratinoRodriguez/test_catalog2-main/blob/main/domains/m001-domain.yaml
+    - https://github.com/IkerMoratinoRodriguez/test_catalog2-main/blob/main/domains/catalog-info.yaml
     - ./systems/d006-mensajeshlt7-system.yaml
     - ./components/service-artemis/service-artemis.yaml
     - ./components/service-back/service-back.yaml
